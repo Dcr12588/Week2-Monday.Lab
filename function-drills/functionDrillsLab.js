@@ -13,6 +13,11 @@
 
 //CODE HERE
 
+  function helloworld(){
+    console.log('Hello,World!')
+  }
+helloworld()
+
 
 ////////////////// PROBLEM 2 ////////////////////
 
@@ -21,6 +26,11 @@
 */
 
 //CODE HERE
+
+  const jsNinja = () => {
+console.log('I am a javascript ninja')
+  }
+jsNinja()
 
 
 ////////////////// PROBLEM 3 ////////////////////
@@ -31,6 +41,11 @@
 */
 
 //CODE HERE
+
+function printName(){
+console.log('Danny')
+}
+printName()
 
 
 ////////////////// PROBLEM 4 ////////////////////
@@ -44,6 +59,8 @@
 */
 
 //CODE HERE
+
+
 
 
 ////////////////// PROBLEM 5 ////////////////////
