@@ -78,8 +78,18 @@ greeting('Danny')
 
 //CODE HERE
 
+const compareNums = (Num1, Num2) => {
+  if(Num1 > Num2){
+    return Num1
+  } else if (Num1 < Num2){
+   return Num2
+  } else {
+    return Num1
+  }
 
-
+  }
+ 
+compareNums(6,9)
 
 ////////////////// PROBLEM 6 ////////////////////
 /*
@@ -90,6 +100,16 @@ greeting('Danny')
 */
 
 //CODE HERE
+
+function add(num1, num2){
+  num1 = +num1
+  num2 = +num2
+  return num1 + num2
+}
+
+let sum = add(6,9)
+console.log(sum)
+
 
 
 ////////////////// PROBLEM 7 ////////////////////
@@ -104,7 +124,7 @@ const exclaim = function(str) {
 }
 
 // console.log('arrow')
-// console.log('declaration')
+console.log('declaration')
 // console.log('expression')
 
 
@@ -120,13 +140,15 @@ const exclaimTwo = str => {
   return str.toUpperCase() + '!!!'
 }
 
-// console.log('arrow')
+console.log('arrow')
 // console.log('declaration')
 // console.log('expression')
 
 /*
   Rewrite exclaimTwo to be a single line.
   Call your new function exclaimThree
+
+
 
   Brownie points if you use a template string
 */
@@ -146,7 +168,7 @@ function exclaimFour(str) {
 
 // console.log('arrow')
 // console.log('declaration')
-// console.log('expression')
+console.log('expression')
 
 
 ////////////////// PROBLEM 10 ////////////////////
@@ -159,6 +181,10 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
+
+function nameCheck(){
+  
+}
 
 
 ////////////////// PROBLEM 11 ////////////////////
