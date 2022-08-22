@@ -182,11 +182,17 @@ console.log('expression')
 
 //CODE HERE
 
-function nameCheck(){
+function nameCheck(name){
   
+  if(name === 'steven')
+  return 'What is up Steven?'
+else if (name === 'Bryan')
+return `Hey Bryan!`
+else
+return `Cool name, ${name}`
 }
-
-
+let nameGreeting = nameCheck('Danny')
+console.log(nameGreeting)
 ////////////////// PROBLEM 11 ////////////////////
 /*
   Write a function called faveColorFinder that takes in one parameter called color (which will be a string).
@@ -199,6 +205,20 @@ function nameCheck(){
 
 //CODE HERE
 
+function faveColorFinder(Color){
+if (Color === `Red`)
+return `Red is a great color`
+else if(Color === `Green`)
+return `Green is a solid favorite color`
+else if(Color === `Black`)
+return `So trendy`
+else 
+return `You need to evaluate your favorite color choice`
+}
+
+let colorRating = faveColorFinder(`Green`)
+console.log(colorRating)
+
 
 ////////////////// PROBLEM 12 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
@@ -209,6 +229,12 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
+
+function printAllNames(namesArr){
+  for(i = 0; i <= namesArr.length; i++)
+console.log(namesArr)
+}
+printAllNames(namesArr)
 
 
 ////////////////// PROBLEM 13 ////////////////////
@@ -259,6 +285,17 @@ let loser = 'Glimmer'
 
 //CODE HERE
 
+function theEliminator(contestants, loser){
+for(let i=0; i < contestants.length; i++){
+  if(contestants[i] === loser){
+    contestants.splice(i,1)
+  }
+}
+return contestants
+}
+console.log(theEliminator(contestants, loser))
+
+
 
 ////////////////// PROBLEM 17 ////////////////////
 let sampleString = "Hi, my name is Kylo."
@@ -305,6 +342,16 @@ let sampleArray = [0,1,2,3,4,7,5,6,8,9]
 */
 
 //CODE HERE
+
+function arrNum(nums){
+  for(let i = 0; i < nums.length; i++){
+    if(nums[i + 1] < nums[i]){
+      return false
+    } 
+  }return true
+ }
+let arrayIsAscending = arrNum(sampleArray)
+console.log(arrayIsAscending)
 
 
 ////////////////// PROBLEM 22 ////////////////////
