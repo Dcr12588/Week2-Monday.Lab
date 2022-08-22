@@ -60,8 +60,10 @@ printName()
 
 //CODE HERE
 
-
-
+function greeting(Name){
+console.log(`Hello, ${Name}.`)
+}
+greeting('Danny')
 
 ////////////////// PROBLEM 5 ////////////////////
 
@@ -75,6 +77,8 @@ printName()
 */
 
 //CODE HERE
+
+
 
 
 ////////////////// PROBLEM 6 ////////////////////
