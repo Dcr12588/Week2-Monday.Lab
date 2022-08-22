@@ -317,6 +317,17 @@ let sampleString = "Hi, my name is Kylo."
   If it does, return 'email verified' and if doesn't, 
   return 'must provide a valid email address'
 */
+function emailCheck(email){
+  email = string(email).trim()
+console.log(email)
+}
+if(/[@]/.test(email)){
+  return 'Email verified'
+} else {
+  return 'must provide a valid email address'
+}
+
+console.log(emailCheck('Dcr1999jr@gmail.com'))
 
 ////////////////// PROBLEM 19 ////////////////////
 /*
